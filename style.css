@@ -1,0 +1,64 @@
+* {
+    margin: 10px;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+div {
+    background-color: rgb(55, 20, 20);
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;
+    border: 5px solid rgb(29, 29, 251);
+    position: relative;
+}
+
+#taskInput {
+    height: 40px;
+    width: 250px;
+    margin-left: 80px;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+button {
+    height: 40px;
+    width: 70px;
+    background-color: rgb(48, 48, 242);
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    height: 50px;
+}
+
+li {
+    padding-left: 15px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.allList {
+    text-decoration: line-through;
+    color: #888;
+}
